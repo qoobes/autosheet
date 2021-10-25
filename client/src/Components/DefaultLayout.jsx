@@ -8,7 +8,7 @@ export const DefaultLayout = ({ children, disableBg }) => {
         position="absolute"
         height="100vh"
         zIndex="-1"
-        backgroundImage={!disableBg && "url('ThreeDotssFlip.png')"}
+        backgroundImage={!disableBg && "url('ThreeDotssFlip.svg')"}
         backgroundRepeat={!disableBg && "no-repeat"}
         backgroundPosition={!disableBg && "center"}
         width="100vw"
