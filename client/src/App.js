@@ -1,7 +1,14 @@
-import { Box } from "@chakra-ui/layout";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Pages/Home";
 
 const App = () => {
-	return <Box>autosheet</Box>;
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Home} exact />
+      </Switch>
+    </BrowserRouter>
+  );
 };
 
 export default App;
